@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+.contact-box{
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 #999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+form{
+    margin: 35px;
+
+}
+.input-field{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+
+}
+.textarea-field{
+    height: 150px;
+    padding-top: 10px;
+}
+.btn {
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: gray;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}   
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: pointer;
+    height: 90px;
+    width: 125px;
+    margin-right: auto;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    color: lightgreen;
+}
+
+button{
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color:forestgreen;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover {
+    background-color:rgba(0,136,169,0.8);
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+  
+  
+}
+footer a{
+    display: flex;
+    justify-content: center;
+    padding: 0px 15px ;
+    margin:10px;
+    flex-direction: column;
+}
+
+.fa  {
+    display: flex;
+    padding: 20px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20%;
+ 
+    
+  }
+
+.fa-snapchat-ghost {
+    background: #fffb00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+  .fa-instagram {
+    background: #145380;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #59aae8 ;
+    color: white;
+  }
+
+  .fa-facebook {
+    background: #3a5692;
+    color: white;
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+footer{
+     width:100%;
+     background-color: black;
+    height: 80px;
+    line-height: 80px;
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 10px;
+  
+}
+@media(max-width:1000px){
+    .content{
+        width: 45%;
+    }
+}
+@media(max-width:750px){
+    .content{
+        width: 100%;
+    }
+}

@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.main-image {
+    position: relative;
+    background:url(images/Hero-Image.jpeg) no-repeat center;
+    background-size: cover;
+    height: 500px;
+    overflow: hidden;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.container h1 {
+  margin: 0;
+  font-size: 60px;
+}
+
+.container h1 span {
+    border: 6px solid white;
+    padding: 6px 14px;
+    display: inline-block;
+}
+
+.cen {
+    margin: 20px;
+    display: block;
+    font-size: 22px;
+}
+.button {
+    color: black;
+    background: white;
+    text-decoration: none;
+    border-radius: 12px;
+    transition: .6s;
+}
+
+.button:hover {
+    opacity: .6;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: pointer;
+    height: 90px;
+    width: 125px;
+    margin-right: auto;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    color: lightgreen;
+}
+
+button{
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color:forestgreen;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover {
+    background-color:rgba(0,136,169,0.8);
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+  
+}
+footer a{
+    display: flex;
+    justify-content: center;
+    padding: 0px 15px ;
+    margin:10px;
+    flex-direction: column;
+}
+
+.fa  {
+    display: flex;
+    padding: 20px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20%;
+ 
+    
+  }
+
+.fa-snapchat-ghost {
+    background: #fffb00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+  .fa-instagram {
+    background: #145380;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #59aae8 ;
+    color: white;
+  }
+
+  .fa-facebook {
+    background: #3a5692;
+    color: white;
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+footer{
+    width:100%;
+    background-color: black;
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  
+}
+@media(max-width:1000px){
+    .content{
+        width: 45%;
+    }
+}
+@media(max-width:750px){
+    .content{
+        width: 100%;
+    }
+}
