@@ -58,7 +58,7 @@ p{
 h6{
     font-size:  26px;
     text-align: center;
-    color: black;
+    color: white;
 
 }
 
@@ -81,7 +81,7 @@ li{
 }
 
 .checked {
-    color: gold;
+    color:gold;
 }
 .fa:hover{
     transform: scale(1.3);

@@ -34,16 +34,20 @@
     display: block;
     font-size: 22px;
 }
-.button {
-    color: black;
-    background: white;
-    text-decoration: none;
-    border-radius: 12px;
-    transition: .6s;
-}
+button{
+    width: 100%;
+    border: none;
+    background-color: lightblue;
+    color: white;
+    padding: 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: all 0.35 ease;
 
-.button:hover {
-    opacity: .6;
+}
+button:hover{
+    cursor: pointer;
+    background: lightblue;
 }
 
 * {
